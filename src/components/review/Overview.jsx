@@ -2,7 +2,7 @@ import Title from "../reusable/Title";
 import NormalText from "../reusable/NormalText";
 export default function Overview() {
     return (
-        <div className="mx-[100px]">
+        <div className="xl:mx-[100px]">
             <Title className=" text-[#7db7a9]">
                 <div>Tư duy và công cụ</div> hỗ trợ tài chính cá nhân
             </Title>

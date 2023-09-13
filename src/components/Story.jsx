@@ -4,7 +4,7 @@ import Title from "./reusable/Title";
 export default function Story() {
     return (
         <section className="bg-[#f2f5fc] py-8 ">
-            <main className="w-10/12 mx-auto">
+            <main className="md:w-10/12 w-11/12 mx-auto">
                 <Title className={"uppercase text-[#e2cd5f] mb-7"}>
                     Câu chuyện ra đời của m4you
                 </Title>
@@ -63,7 +63,7 @@ export default function Story() {
                         nhân cho cộng đồng.
                     </p>
 
-                    <TextSpecial className={" text-lg font-bold"}>
+                    <TextSpecial className={" md:text-lg text-md font-bold"}>
                         Nghĩ lớn - Làm nhỏ - Từ nhỏ - Đến lớn - Tư duy - Tiền bạc
                     </TextSpecial>
                 </NormalText>

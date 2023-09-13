@@ -3,7 +3,7 @@ import TextSpecial from "./reusable/TextSpecial";
 
 export default function Footer() {
     return (
-        <footer className="flex items-center w-10/12 mx-auto">
+        <footer className="flex items-center md:w-10/12 w-11/12 mx-auto">
             <NormalText className="flex  gap-10">
                 <p className="flex gap-2">
                     Email:{" "}
