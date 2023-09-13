@@ -2,40 +2,33 @@ import Title from "../reusable/Title";
 import NormalText from "../reusable/NormalText";
 export default function Overview() {
     return (
-        <div className="ml-[100px]">
+        <div className="mx-[100px]">
             <Title className=" text-[#7db7a9]">
                 <div>Tư duy và công cụ</div> hỗ trợ tài chính cá nhân
             </Title>
             <NormalText className={"mt-6"}>
-                Bạn đã từng làm nhiều cách khác nhau để phát triển <p>tài chính cá nhân.</p>
-            </NormalText>
-
-            <NormalText className={"font-bold mt-4"}>Nhưng có thể:</NormalText>
-            <ul className="list-disc pl-[40px] ">
-                <NormalText>
+                Bạn đã từng làm nhiều cách khác nhau để phát triển tài chính cá nhân.
+                <p className={"font-bold mt-4"}>Nhưng có thể:</p>
+                <ul className="list-disc pl-[40px] ">
                     <li>Bạn thiếu người thầy, người dẫn dắt, thiếu những góc nhìn và kiến thức.</li>
                     <li>
                         Chưa có những công cụ hỗ trợ tập trung để giúp bạn hình dung rõ ràng, lập kế
                         hoạch và đi đến mục tiêu kế hoạch tài chính cá nhân.
                     </li>
-                </NormalText>
-            </ul>
-            <NormalText className={"font-bold mt-4"}>M4YOU mang đến cho bạn:</NormalText>
-            <ul className="list-disc pl-[40px] ">
-                <li>
-                    <NormalText>
+                </ul>
+                <p className={"font-bold mt-4"}>M4YOU mang đến cho bạn:</p>
+                <ul className="list-disc pl-[40px] ">
+                    <li>
                         Những tư duy, bài học được đúc kết từ trải nghiệm thực tế sẽ:
                         <ul className="list-disc pl-[40px] ">
-                            <li>Giusp bạn có thêm góc nhìn và kiến thức mới.</li>
+                            <li>Giúp bạn có thêm góc nhìn và kiến thức mới.</li>
                             <li>
                                 Giúp đưa ra nhiều đánh giá để có những lựa chọn phù hợp với bối cảnh
                                 của riêng mình.
                             </li>
                         </ul>
-                    </NormalText>
-                </li>
-                <li>
-                    <NormalText>
+                    </li>
+                    <li>
                         Những công cụ được kết nối với nhau sẽ:
                         <ul className="list-disc pl-[40px] ">
                             <li>
@@ -50,18 +43,16 @@ export default function Overview() {
                                 trong tương lai.
                             </li>
                         </ul>
-                    </NormalText>
-                </li>
-            </ul>
-            <NormalText className={"font-bold mt-4"}>Và hơn thế:</NormalText>
-            <ul className="list-disc pl-[40px] ">
-                <NormalText>
+                    </li>
+                </ul>
+                <p className={"font-bold mt-4"}>Và hơn thế:</p>
+                <ul className="list-disc pl-[40px] ">
                     <li>
                         Chúng ta học, chúng ta trải nghiệm, chúng ta cải thiện bản thân và chúng ta
                         dạy con, chúng ta chia sẻ lại những giá trị quý báu ấy cho cộng đồng.
                     </li>
-                </NormalText>
-            </ul>
+                </ul>
+            </NormalText>
         </div>
     );
 }

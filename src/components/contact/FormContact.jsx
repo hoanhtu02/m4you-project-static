@@ -10,7 +10,7 @@ export default function FormContact() {
                 <Input type="text" name="phone" placeholder="Số điện thoại của bạn" />
             </div>
             <NormalText className={"font-bold text-xl mb-8"}>Bạn đang ở giai đoạn: </NormalText>
-            <div className="grid grid-cols-3 gap-10 mb-8">
+            <div className="grid grid-cols-3 gap-10 mb-8 text-white ">
                 <label className="container-radio">
                     <input type="radio" name="phase" />
                     <span className="checkmark"></span>
@@ -33,7 +33,7 @@ export default function FormContact() {
             <textarea
                 name="shared"
                 id="shared"
-                className="rounded-xl w-full mb-8 p-4"
+                className="rounded-xl w-full mb-8 p-4 outline-none"
                 placeholder="Nhu cầu, mong muốn của bạn là gì?"
                 rows="3"
             ></textarea>

@@ -1,7 +1,7 @@
 export default function HeaderLogo() {
     return (
-        <div className="flex justify-center">
-            <span className="text-2xl font-bold inline-block leading-loose ps-8 pt-4">Logo</span>
-        </div>
+        <a href="#logo" className="block">
+            <img className="h-full" src="src/assets/logo.png" alt="M4YOU" />
+        </a>
     );
 }

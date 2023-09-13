@@ -3,20 +3,20 @@ import TextSpecial from "./reusable/TextSpecial";
 
 export default function Footer() {
     return (
-        <footer>
-            <NormalText className={"mt-4 ml-6 flex gap-12"}>
-                <div>
+        <footer className="flex items-center w-10/12 mx-auto">
+            <NormalText className="flex  gap-10">
+                <p className="flex gap-2">
                     Email:{" "}
-                    <TextSpecial>
-                        <a href="#">didaudo@gmail.com</a>
-                    </TextSpecial>
-                </div>
-                <div>
+                    <a href="mailto:didaudo@gmail.com">
+                        <TextSpecial>didaudo@gmail.com</TextSpecial>
+                    </a>
+                </p>
+                <p className="flex gap-2">
                     Fanpage:{" "}
-                    <TextSpecial>
-                        <a href="#">didaudo@gmail.com</a>
-                    </TextSpecial>
-                </div>
+                    <a href="#">
+                        <TextSpecial>didaudo@gmail.com</TextSpecial>
+                    </a>
+                </p>
             </NormalText>
         </footer>
     );

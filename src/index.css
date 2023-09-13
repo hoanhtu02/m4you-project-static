@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 *,
 ::after,
 ::before {
@@ -9,10 +9,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: "Roboto", sans-serif;
+}
 #root {
     display: grid;
-    grid-template-rows: 60px 1fr 60px;
+    grid-template-rows: minmax(min-content, max-content) 1fr 60px;
     overflow: hidden;
+}
+body::-webkit-scrollbar {
+    width: 0px;
 }
 
 .container-radio {
@@ -36,7 +42,7 @@
 
 .checkmark {
     position: absolute;
-    top: 5px;
+    top: 4px;
     left: 0;
     height: 25px;
     width: 25px;
