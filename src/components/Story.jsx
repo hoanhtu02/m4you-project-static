@@ -63,7 +63,7 @@ export default function Story() {
                         nhân cho cộng đồng.
                     </p>
 
-                    <TextSpecial className={" md:text-lg text-md font-bold"}>
+                    <TextSpecial className={" md:text-lg sm:text-md text-[13px] sm:text-left  text-center font-bold"}>
                         Nghĩ lớn - Làm nhỏ - Từ nhỏ - Đến lớn - Tư duy - Tiền bạc
                     </TextSpecial>
                 </NormalText>

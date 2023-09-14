@@ -17,9 +17,6 @@ html {
     grid-template-rows: minmax(min-content, max-content) 1fr 60px;
     overflow: hidden;
 }
-body::-webkit-scrollbar {
-    width: 0px;
-}
 
 .container-radio {
     display: block;

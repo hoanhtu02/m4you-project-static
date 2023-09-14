@@ -10,7 +10,7 @@ export default function FormContact() {
                 <Input type="text" name="email" placeholder="Email của bạn" />
                 <Input type="text" name="phone" placeholder="Số điện thoại của bạn" />
             </div>
-            <NormalText className={"font-bold md:text-xl xl:mb-8 lg:mb-2 md:mb-2 mb-3  "}>
+            <NormalText className={"font-bold md:text-md  xl:mb-8 lg:mb-2 md:mb-2 mb-3  "}>
                 Bạn đang ở giai đoạn:{" "}
             </NormalText>
             <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-4 xl:mb-8 lg:mb-2 md:mb-2 mb-3 text-white ">
